@@ -54,7 +54,7 @@ public class UbahActivity extends AppCompatActivity {
                 }
                 else {
                     MyDatabaseHelper myDB = new MyDatabaseHelper(UbahActivity.this);
-                    long eks = myDB.tambahData(npm, nama, prodi);
+                    long eks = myDB.ubahData(yId, npm, nama, prodi);
 
                     if (eks == -1) {
                         Toast.makeText(UbahActivity.this, "Ubah Data Gagal", Toast.LENGTH_SHORT).show();
