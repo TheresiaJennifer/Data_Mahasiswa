@@ -24,7 +24,7 @@ public class TambahActivity extends AppCompatActivity {
 
          btnTambah.setOnClickListener(new View.OnClickListener() {
              @Override
-             public void onClick(View view) {
+             public void onClick(View v) {
                  String npm, nama, prodi;
 
                  npm = etNpm.getText().toString();

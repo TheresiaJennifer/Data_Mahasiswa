@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         fabTambah = findViewById(R.id.fab_tambah);
         rvMahasiswa = findViewById(R.id.rv_mahasiswa);
 
-        fabTambah.setOnClickListener(new View.OnClickListener() {
+        fabTambah.setOnClickListener(new  View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, TambahActivity.class));

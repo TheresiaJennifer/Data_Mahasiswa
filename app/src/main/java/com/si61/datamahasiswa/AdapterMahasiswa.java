@@ -95,7 +95,7 @@ public class AdapterMahasiswa extends RecyclerView.Adapter<AdapterMahasiswa.View
                                 Toast.makeText(ctx, "Gagal Hapus Data!", Toast.LENGTH_SHORT).show();
                             }
                             else {
-                                Toast.makeText(ctx, "Suskse Hapus Data!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ctx, "Sukses Hapus Data!", Toast.LENGTH_SHORT).show();
                                 dialog.dismiss();
                                 ((MainActivity) ctx).onResume();
                             }
